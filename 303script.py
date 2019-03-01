@@ -28,7 +28,7 @@ else:
                 .create(
                      body="Changes have been made! Check https://github.com/jin-guo/COMP303_Winter2019 ",
                      from_='+17094000348',
-                     to='+14389278610'
+                     to='[PHONE NUMBER]'
                  )
 	print(message.sid)
 	
