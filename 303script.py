@@ -1,6 +1,6 @@
 from twilio.rest import Client
 # latest commit HTML tag - needs spaces at front and new line at end since that is how wget file is parsed into toCompare
-original = '      <a class="commit-tease-sha" href="/jin-guo/COMP303_Winter2019/commit/f955747952e27e05a80d045f6a3fc7e8707a3e6a" data-pjax>' + '\n'
+original = '      <a class="commit-tease-sha" href="/jin-guo/COMP303_Winter2019/commit/35bde4fc9005a42a7685d7624d433ce4e063b32c" data-pjax>' + '\n'
 
 # breaks loop in interating through wget file - only pattern that matters for seeing difference in commit
 breaker = '<a class="commit-tease-sha" href="/jin-guo/COMP303_Winter2019/'
