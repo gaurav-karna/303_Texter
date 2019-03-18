@@ -17,5 +17,8 @@ Navigate to the repository in the terminal, and run ``` bash 303script.bash ```,
 during class - you will get a text at the phone number you provided.
 
 ## Improvements
-I'll automate the updating of the commit even further when I have more time. But, for the time being - this works as a novel
-solution. If there any issues, open an issue and let me know :blush:
+I'll automate the updating of the commit even further when I have more time. It involves a commit updater when you first start the bash script.
+
+I have also thought of using web hooks, and RSS feeds. But putting that on the back-burner for the time being.
+
+But, for the time being - this works as a novel solution. If there any issues, open an issue and let me know :blush:
