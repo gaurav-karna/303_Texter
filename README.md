@@ -1,4 +1,4 @@
-# CS303 Updater
+# CS303 Updater :iphone:
 This script simply checks for commit updates during class.
 
 It is helpful if you cannot make it to class for some reason, but would still like to participate in the in-class activities.
@@ -21,4 +21,4 @@ I'll automate the updating of the commit even further when I have more time. It 
 
 I have also thought of using web hooks, and RSS feeds. But putting that on the back-burner for the time being.
 
-But, for the time being - this works as a novel solution. If there any issues, open an issue and let me know :blush:
+For now - this works as a novel solution. If there any problems, open an issue and let me know :blush:
