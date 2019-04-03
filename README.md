@@ -4,17 +4,30 @@ This script simply checks for commit updates during class.
 It is helpful if you cannot make it to class for some reason, but would still like to participate in the in-class activities.
 
 ## Requirements
+
+### Python 3
+
 Ensure you have Python 3 installed, and a bash environment to run the code in. 
 
-Note that if your Python interpreter is utilized with a command other than ``` python3 ```, then you will have to change the line ``` python3 303script.py ``` in the file 
-``` 303script.bash ``` accordingly.
+Note that if your Python interpreter is utilized with a command other than ``` python3 ```, then you will have to change the line ``` python3 303script.py ``` in the file ``` 303script.bash ``` accordingly.
+
+### Git
 
 Clone the repository with ``` git clone https://github.com/gaurav-karna/303_Texter ```
 
-In the file, ``` 303script.py ``` - ensure you change ``` [phone #] ``` to the phone to which you would like to receive texts.
+### Twilio Account
 
-Navigate to the repository in the terminal, and run ``` bash 303script.bash ```, and if there is an update to the repository
-during class - you will get a text at the phone number you provided.
+To enable texting, you need a trial Twilio account. Make one at [Twilio](https://www.twilio.com/try-twilio). Create
+a project, and get your projects ``` account_sid ``` and ``` auth_token ```. 
+
+## Run Script
+
+Ensure your the corresponding variables for ``` account_sid ``` and ``` auth_token ``` are saved 
+in ``` 303script.py```. 
+
+In the file, ``` 303script.py ``` - ensure you change ``` twilio_phone ``` to the phone number granted by Twilio for your project, and add your personal phone number to the ``` my_phone ``` space.
+
+Navigate to the repository in the terminal, and run ``` bash 303script.bash ```, and if there is an update to the repository during class - you will get a text at the phone number you provided.
 
 ## Improvements
 I'll automate the updating of the commit even further when I have more time. It involves a commit updater when you first start the bash script.
