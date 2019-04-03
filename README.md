@@ -17,12 +17,12 @@ Clone the repository with ``` git clone https://github.com/gaurav-karna/303_Text
 
 ### Twilio Account
 
-To enable texting, you need a trial Twilio account. Make one at [Twilio](https://www.twilio.com/try-twilio). Create
-a project, and get your projects ``` account_sid ``` and ``` auth_token ```. 
+To enable texting, you need a [trial Twilio account](https://www.twilio.com/try-twilio). Create
+a project, and get your project's ``` account_sid ``` and ``` auth_token ```. 
 
 ## Run Script
 
-Ensure your the corresponding variables for ``` account_sid ``` and ``` auth_token ``` are saved 
+Ensure the corresponding variables for ``` account_sid ``` and ``` auth_token ``` are saved 
 in ``` 303script.py```. 
 
 In the file, ``` 303script.py ``` - ensure you change ``` twilio_phone ``` to the phone number granted by Twilio for your project, and add your personal phone number to the ``` my_phone ``` space.
