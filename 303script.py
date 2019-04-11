@@ -1,7 +1,7 @@
-from secrets.py import account_sid_secret, auth_token_secret, twilio_phone, my_phone
+from secrets import account_sid_secret, auth_token_secret, twilio_phone, my_phone
 from twilio.rest import Client
 # latest commit HTML tag - needs spaces at front and new line at end since that is how wget file is parsed into toCompare
-original = '      <a class="commit-tease-sha" href="/jin-guo/COMP303_Winter2019/commit/8e505caea1aa071b7b5876bafcda2c4244697d9b" data-pjax>' + '\n'
+original = '      <a class="commit-tease-sha" href="/jin-guo/COMP303_Winter2019/commit/2739c87ba8b5e311ba19b850d90d0b05fd0d7ce7" data-pjax>' + '\n'
 
 # breaks loop in interating through wget file - only pattern that matters for seeing difference in commit
 breaker = '<a class="commit-tease-sha" href="/jin-guo/COMP303_Winter2019/'
